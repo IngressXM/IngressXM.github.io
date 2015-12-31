@@ -1,0 +1,31 @@
+#header {
+  background: url("images/banner.jpg");
+  padding-bottom: nav-height;
+  position: relative;
+}
+#header-outer {
+  height: 100%;
+  position: relative;
+}
+#header-inner {
+  position: relative;
+}
+#header-title {
+  text-align: center;
+  padding: 30px 30px;
+}
+#header-title .logo-wrap,
+#header-title .subtitle-wrap {
+  float: left;
+}
+#header-title .subtitle-wrap {
+  padding: 10px 0px 0px;
+  margin-left: 20px;
+}
+#header-title .subtitle {
+  font-size: 26px;
+  font-style: bold;
+  line-height: logo-height10;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.2);
+}
