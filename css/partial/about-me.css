@@ -1,0 +1,22 @@
+.about-me {
+  text-align: center;
+  margin: 0 auto;
+}
+.author {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+/* border-radius (w/12) */
+  border-radius: 3.4375em;
+  transition: transform 0.5s ease-out;
+}
+.author:hover {
+  transform: rotate(-360deg);
+}
+@media tablet {
+  .author {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
