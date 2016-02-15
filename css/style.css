@@ -226,7 +226,6 @@ body {
 }
 .container {
   position: relative;
-  padding: 0 20px;
 }
 .container-inner {
   max-width: 1120px;
@@ -326,12 +325,22 @@ body {
   clear: both;
 }
 #header {
-  background: url("images/banner.jpg") no-repeat 100% 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  background: #121214;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
   padding-bottom: 60px;
   position: relative;
+}
+#header-content {
+  max-width: 1120px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  background: url("images/banner.jpg") no-repeat 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 #header-outer {
   height: 100%;
@@ -342,7 +351,7 @@ body {
 }
 #header-title {
   text-align: center;
-  padding: 30px 30px;
+  padding: 60px 30px;
 }
 #header-title:before,
 #header-title:after {
@@ -362,10 +371,10 @@ body {
 }
 #header-title .subtitle {
   font-size: 26px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 70px;
   color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.2);
+  text-shadow: 0 0 4px #11ec1a;
 }
 .nav-container .nav-icon,
 .nav-container .nav-container-inner #main-nav .main-nav-list-item .main-nav-list-link {
@@ -1497,21 +1506,19 @@ a.article-title:hover {
   padding: 30px;
 }
 #footer #back-to-top {
-  background: #eaeaea;
-  color: #777;
   overflow: hidden;
-  text-align: center;
   width: 60px;
-  height: 30px;
-  display: block;
-  margin: 0 auto -30px;
+  height: 60px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #3b8dbd url("images/up.png") no-repeat 50% 50%;
   -webkit-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border: 1px solid #aba6a6;
 }
 #footer #back-to-top:hover {
-  color: #444;
+  background: #0592d0 url("images/up.png") no-repeat 50% 50%;
 }
 #footer #back-to-top i {
   font-size: 38px;

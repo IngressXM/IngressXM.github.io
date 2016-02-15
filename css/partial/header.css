@@ -1,8 +1,16 @@
 #header {
-  background: url("images/banner.jpg") no-repeat 100% 100%;
-  background-size: 100%;
+  background: #121214;
+  background-size: 100% 100%;
   padding-bottom: nav-height;
   position: relative;
+}
+#header-content {
+  max-width: 1120px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  background: url("images/banner.jpg") no-repeat 100% 100%;
+  background-size: 100% 100%;
 }
 #header-outer {
   height: 100%;
@@ -13,7 +21,7 @@
 }
 #header-title {
   text-align: center;
-  padding: 30px 30px;
+  padding: 60px 30px;
 }
 #header-title .logo-wrap,
 #header-title .subtitle-wrap {
@@ -25,8 +33,8 @@
 }
 #header-title .subtitle {
   font-size: 26px;
-  font-style: bold;
+  font-weight: bold;
   line-height: logo-height10;
   color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.2);
+  text-shadow: 0 0 4px #11ec1a;
 }
